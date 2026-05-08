@@ -1,0 +1,50 @@
+﻿Cuadro AI. Tamaño de muestra y coeficientes de variación,,,,
+Año,Grupo sociodemográfico,n,Uso diario,Uso ocasional
+,,,CV prevalencia,CV prevalencia
+2009,Hombre,"5,470",5.4,4.7
+2015,Hombre,"5,070",5.8,5.0
+2016,Hombre,"20,607",4.0,2.9
+2023,Hombre,"4,263",7.3,6.2
+2025,Hombre,"7,619",6.4,5.3
+2009,Mujer,"6,824",10.8,9.8
+2015,Mujer,"7,707",10.1,8.2
+2016,Mujer,"29,896",5.5,4.6
+2023,Mujer,"6,792",11.9,8.7
+2025,Mujer,"9,669",9.1,7.7
+2009,15-24 años,"2,793",12.0,8.0
+2015,15-24 años,"2,645",10.5,7.9
+2016,15-24 años,"13,091",7.8,4.1
+2023,15-24 años,"1,935",16.6,10.4
+2025,15-24 años,"3,982",14.9,11.3
+2009,25-44 años,"6,030",6.7,5.2
+2015,25-44 años,"5,991",7.3,6.0
+2016,25-44 años,"21,266",5.4,3.3
+2023,25-44 años,"4,613",9.4,7.5
+2025,25-44 años,"6,454",9.2,6.3
+2009,45-65 años,"3,471",7.3,11.2
+2015,45-65 años,"4,141",9.0,9.7
+2016,45-65 años,"16,146",4.4,5.5
+2023,45-65 años,"4,507",8.2,8.6
+2025,45-65 años,"6,852",7.2,7.6
+2009,Primaria o menos,"6,167",8.4,6.9
+2015,Primaria o menos,"5,250",7.9,8.0
+2016,Primaria o menos,"12,441",6.4,5.2
+2023,Primaria o menos,"3,359",12.6,11.2
+2025,Primaria o menos,"2,678",13.5,11.2
+2009,Secundaria,"3,696",8.3,7.3
+2015,Secundaria,"4,199",8.3,7.1
+2016,Secundaria,"17,993",4.9,3.6
+2023,Secundaria,"3,513",9.9,7.9
+2025,Secundaria,"5,521",7.9,8.3
+2009,Preparatoria,"1,719",10.4,9.6
+2015,Preparatoria,"2,287",9.8,8.6
+2016,Preparatoria,"12,389",7.0,4.0
+2023,Preparatoria,"2,652",11.6,9.6
+2025,Preparatoria,"5,296",9.0,8.2
+2009,Universidad o posgrado,692,20.0,14.0
+2015,Universidad o posgrado,985,17.5,12.2
+2016,Universidad o posgrado,"6,104",9.5,6.7
+2023,Universidad o posgrado,"1,470",13.7,13.1
+2025,Universidad o posgrado,"3,507",11.5,10.3
+n = número de observaciones,,,,
+CV = coeficiente de variación. En amarillo los CV que indican precisión moderada en lugar de alta. ,,,,
