@@ -4,58 +4,340 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Material suplementario | Intensidad del consumo de tabaco en México</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --border: #e5e7eb;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f3d3e, #2563eb);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+    }
+
+    header p {
+      max-width: 900px;
+      margin: 0.5rem auto 0;
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: -2rem auto 3rem;
+      padding: 0 1.25rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .meta-item {
+      border-left: 4px solid var(--accent);
+      background: #f9fafb;
+      padding: 0.85rem 1rem;
+      border-radius: 10px;
+    }
+
+    .meta-item strong {
+      display: block;
+      font-size: 0.88rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem;
+    }
+
+    .figure-box {
+      text-align: center;
+    }
+
+    .figure-box img {
+      max-width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: white;
+      box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    th, td {
+      padding: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      background: #f3f4f6;
+      font-size: 0.9rem;
+      color: #374151;
+    }
+
+    tr:hover td {
+      background: #f9fafb;
+    }
+
+    .file-title {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .file-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--accent);
+      color: white;
+      padding: 0.5rem 0.75rem;
+      border-radius: 9px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .button:hover {
+      background: var(--accent-dark);
+    }
+
+    .button.secondary {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .button.secondary:hover {
+      background: #d1d5db;
+    }
+
+    footer {
+      max-width: 1100px;
+      margin: 0 auto 2rem;
+      padding: 0 1.25rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Material suplementario</h1>
+  <header>
+    <h1>Material suplementario</h1>
+    <p>
+      Tendencias en la intensidad del consumo de cigarros más allá de la prevalencia:
+      evidencia de la ENCODAT y GATS México
+    </p>
+  </header>
 
-  <p>
-    Material suplementario del artículo:
-    <strong>Tendencias en la intensidad del consumo de cigarros más allá de la prevalencia:
-    evidencia de la ENCODAT y GATS México</strong>.
-  </p>
+  <main>
+    <section class="card">
+      <h2>Información del artículo</h2>
 
-  <h2>Información del artículo</h2>
+      <div class="meta-grid">
+        <div class="meta-item">
+          <strong>Título en español</strong>
+          Tendencias en la intensidad del consumo de cigarros más allá de la prevalencia:
+          evidencia de la ENCODAT y GATS México
+        </div>
 
-  <p><strong>Título en inglés:</strong> Trends in cigarette smoking intensity beyond prevalence: evidence from ENCODAT and GATS Mexico</p>
-  <p><strong>Título corto:</strong> Intensidad del consumo de tabaco en México</p>
-  <p><strong>Revista:</strong> Salud Pública de México</p>
+        <div class="meta-item">
+          <strong>Título en inglés</strong>
+          Trends in cigarette smoking intensity beyond prevalence:
+          evidence from ENCODAT and GATS Mexico
+        </div>
 
-  <h2>Autores</h2>
+        <div class="meta-item">
+          <strong>Título corto</strong>
+          Intensidad del consumo de tabaco en México
+        </div>
 
-  <p>
-    Luz Myriam Reynales-Shigematsu; Fernando Austria-Corrales;
-    María José Martínez Gálvez; David A. Barrera-Núñez;
-    Sandra Patricia Avilés-Soriano; Belen Saenz-de-Miera.
-  </p>
+        <div class="meta-item">
+          <strong>Revista</strong>
+          Salud Pública de México
+        </div>
 
-  <h2>Figura suplementaria</h2>
+        <div class="meta-item">
+          <strong>DOI</strong>
+          Pendiente
+        </div>
+      </div>
+    </section>
 
-  <p>
-    <img src="figures/FiguraA1.png" alt="Figura suplementaria A1" style="max-width:100%; border:1px solid #ddd;">
-  </p>
+    <section class="card">
+      <h2>Autores</h2>
+      <p>
+        Luz Myriam Reynales-Shigematsu, D en C; Fernando Austria-Corrales, D en C;
+        María José Martínez Gálvez, Lic. en Eco; David A. Barrera-Núñez, M en C;
+        Sandra Patricia Avilés-Soriano, M en C; Belen Saenz-de-Miera, PhD.
+      </p>
+    </section>
 
-  <p>
-    <a href="figures/FiguraA1.png" download>Descargar Figura A1 PNG</a> |
-    <a href="figures/FiguraA1.csv" download>Descargar datos de Figura A1 CSV</a>
-  </p>
+    <section class="card figure-box">
+      <h2>Figura suplementaria</h2>
+      <p>
+        Figura A1. Prevalencia e intensidad del consumo diario de cigarros en México.
+      </p>
 
-  <h2>Cuadros suplementarios</h2>
+      <img src="figures/FiguraA1.png" alt="Figura A1: prevalencia e intensidad del consumo diario de cigarros" />
 
-  <ul>
-    <li><a href="supplementary/CuadroAI.csv" download>Cuadro AI CSV</a></li>
-    <li><a href="supplementary/CuadroAII.csv" download>Cuadro AII CSV</a></li>
-    <li><a href="supplementary/CuadroAIII.csv" download>Cuadro AIII CSV</a></li>
-    <li><a href="supplementary/Cuadros%20Suplementarios.xlsx" download>Cuadros suplementarios XLSX</a></li>
-  </ul>
+      <p class="actions" style="justify-content:center; margin-top:1rem;">
+        <a class="button" href="figures/FiguraA1.png" download>Descargar PNG</a>
+        <a class="button secondary" href="figures/FiguraA1.csv" download>Descargar datos CSV</a>
+      </p>
+    </section>
 
-  <h2>Cómo citar</h2>
+    <section class="card">
+      <h2>Archivos suplementarios</h2>
+      <p>
+        Los cuadros se proporcionan en formato CSV para facilitar su consulta y reutilización.
+        El archivo Excel contiene la versión integrada de los cuadros suplementarios.
+      </p>
 
-  <p>
-    Reynales-Shigematsu LM, Austria-Corrales F, Martínez Gálvez MJ,
-    Barrera-Núñez DA, Avilés-Soriano SP, Saenz-de-Miera B.
-    <em>Trends in cigarette smoking intensity beyond prevalence:
-    evidence from ENCODAT and GATS Mexico</em>.
-    Salud Pública de México. DOI: pendiente.
-  </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Contenido</th>
+              <th>Formato</th>
+              <th>Acceso</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <div class="file-title">Cuadro AI</div>
+                <div class="file-desc">Tabla suplementaria en formato abierto.</div>
+              </td>
+              <td>Resultados complementarios del análisis de prevalencia e intensidad del consumo de cigarros.</td>
+              <td>CSV</td>
+              <td>
+                <div class="actions">
+                  <a class="button" href="supplementary/CuadroAI.csv" download>Descargar CSV</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="file-title">Cuadro AII</div>
+                <div class="file-desc">Tabla suplementaria en formato abierto.</div>
+              </td>
+              <td>Resultados complementarios derivados de ENCODAT y GATS México.</td>
+              <td>CSV</td>
+              <td>
+                <div class="actions">
+                  <a class="button" href="supplementary/CuadroAII.csv" download>Descargar CSV</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="file-title">Cuadro AIII</div>
+                <div class="file-desc">Tabla suplementaria en formato abierto.</div>
+              </td>
+              <td>Resultados adicionales para la documentación del análisis.</td>
+              <td>CSV</td>
+              <td>
+                <div class="actions">
+                  <a class="button" href="supplementary/CuadroAIII.csv" download>Descargar CSV</a>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="file-title">Cuadros suplementarios</div>
+                <div class="file-desc">Archivo Excel consolidado.</div>
+              </td>
+              <td>Archivo integrado con los cuadros suplementarios del manuscrito.</td>
+              <td>XLSX</td>
+              <td>
+                <div class="actions">
+                  <a class="button" href="supplementary/Cuadros%20Suplementarios.xlsx" download>Descargar Excel</a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Cómo citar</h2>
+      <p>
+        Reynales-Shigematsu LM, Austria-Corrales F, Martínez Gálvez MJ,
+        Barrera-Núñez DA, Avilés-Soriano SP, Saenz-de-Miera B.
+        <em>Trends in cigarette smoking intensity beyond prevalence:
+        evidence from ENCODAT and GATS Mexico</em>.
+        Salud Pública de México. DOI: pendiente.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Material suplementario alojado mediante GitHub Pages. Última actualización: 2026.
+  </footer>
 </body>
 </html>
